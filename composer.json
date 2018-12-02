@@ -9,12 +9,12 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/WiseClock/flarum-ext-reply2see/issues",
-        "source": "https://github.com/WiseClock/flarum-ext-reply2see"
+        "issues": "https://github.com/yahirwo/flarum-ext-reply2see/issues",
+        "source": "https://github.com/yahirwo/flarum-ext-reply2see"
     },
     "require": {
-        "flarum/core": "^0.1.0-beta.6",
-        "flarum/flarum-ext-bbcode": "^0.1.0"
+        "flarum/core": "^0.1.0-beta.8",
+        "flarum/bbcode": "^0.1.0-beta.8"
     },
     "extra": {
         "flarum-extension": {
@@ -28,7 +28,7 @@
     },
     "autoload": {
         "psr-4": {
-            "WiseClock\\Reply2See\\": "src/"
+            "yahirwo\\Reply2See\\": "src/"
         }
     }
 }
